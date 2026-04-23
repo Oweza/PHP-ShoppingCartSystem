@@ -1,0 +1,87 @@
+/* GosselinGourmetGoods.css - Welcome Page Theme */
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #F5E6D3 0%, #E8D5C4 50%, #D4C4B0 100%);
+    color: #2C1810;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #5D3A1A;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    border-bottom: 3px double #8B4513;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #6B4423;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 5px solid #8B4513;
+}
+
+/* Container for store links */
+p {
+    font-size: 1.2em;
+    line-height: 2.5em;
+    margin-left: 20px;
+}
+
+/* Store category links */
+a {
+    color: #8B4513;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #8B4513;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin: 5px 0;
+    min-width: 250px;
+}
+
+a:hover {
+    background-color: #8B4513;
+    color: white;
+    transform: translateX(10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Welcome message styling */
+.welcome-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Category sections */
+.category-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(245, 230, 211, 0.5);
+    border-radius: 10px;
+}
+
+/* Footer style */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 2px solid #8B4513;
+    color: #6B4423;
+    font-style: italic;
+}

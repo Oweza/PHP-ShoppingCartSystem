@@ -1,0 +1,40 @@
+/* GosselinGourmet.css - Coffee Store Theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5E6D3;
+    color: #4A2511;
+    margin: 20px;
+}
+
+h1 {
+    color: #6B3410;
+    border-bottom: 3px solid #8B4513;
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: #FFF8DC;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #D2691E;
+}
+
+a {
+    color: #8B4513;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #D2691E;
+    text-decoration: underline;
+}
